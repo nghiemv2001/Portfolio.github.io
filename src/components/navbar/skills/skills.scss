@@ -1,0 +1,107 @@
+.skills {
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    .textContainer {
+        flex: 1;
+        align-items: flex-end;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 20px;
+
+        hr {
+            width: 500px;
+            border: none;
+            border-top: 0.5px solid gray;
+        }
+
+        p {
+            font-weight: 200;
+            font-size: 20;
+            color: gray;
+            text-align: right;
+        }
+    }
+
+    .tileContainer {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .title {
+            display: flex;
+            gap: 20px;
+            align-self: center;
+
+            img {
+                height: 100px;
+                width: 300px;
+                border-radius: 50px;
+                object-fit: cover;
+            }
+
+            h1 {
+                font-size: 60px;
+                font-weight: 100;
+
+            }
+
+            button {
+                width: 300px;
+                height: 100px;
+                border-radius: 50px;
+                background-color: orange;
+                border: none;
+                font-size: 24px;
+                cursor: pointer;
+
+            }
+        }
+    }
+
+    .listContainer {
+        flex: 2;
+        display: flex;
+        max-width: 826px;
+        margin: auto;
+        .box {
+            margin-left: 20px;
+            margin-bottom: 20px;
+            border-radius: 16px;
+            padding: 20px 50px 50px 50px;
+            border: 0.5px solid gray;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            flex-direction: column;
+            justify-content: space-between;
+            max-width: 200px;
+
+            div{
+                margin-bottom: 20px;
+                height: 90px;
+                width: 90px;
+                border: 1px solid   gray;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50px;
+                img{
+                    width: 70px;
+                    height: 70px;
+                }
+            }
+            p{
+                text-align: center;
+                font-size: 24px;
+            }   
+            
+        }
+    }
+}
