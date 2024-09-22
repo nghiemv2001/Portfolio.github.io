@@ -39,11 +39,12 @@
         justify-content: center;
         position: relative;
         gap: 50px;
+        
 
         .videoContainer {
             flex: 5;
             height: 60%;
-
+            margin-top: 100px;
 
             video {
                 width: 700px;

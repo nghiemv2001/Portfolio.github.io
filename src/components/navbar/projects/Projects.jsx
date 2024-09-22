@@ -25,7 +25,10 @@ const projects = [
 
 const Single = ({ item }) => {
   const ref = useRef();
-  const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start start", "end start"],
+  });
 
   const y = useTransform(scrollYProgress, [0, 1], ["0%", "-300%"]);
   return (
@@ -33,13 +36,7 @@ const Single = ({ item }) => {
       <div className="container">
         <div className="wrapper">
           <div className="videoContainer">
-          <video
-              src={item.video}
-              autoPlay
-              loop
-              muted
-              playsInline
-            />
+            <video src={item.video} autoPlay loop muted playsInline />
           </div>
           <motion.div className="textContainer" style={{ y }}>
             <h2>{item.title}</h2>
