@@ -38,8 +38,12 @@
         background-color: transparent;
         border: none;
         position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         top: 25px;
         left: 25px;
+        outline: none;
         cursor: pointer;
     }
 }
