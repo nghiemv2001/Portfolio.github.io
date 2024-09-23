@@ -7,19 +7,19 @@ const projects = [
     id: 1,
     title: "Booking Restaurant",
     desc: "As part of a team of four, I am responsible as a front-end developer for building the UI/UX for the website using the React library and independently designing the Figma prototype for the project",
-    video: "../../../../public/video_restaurant.mp4",
+    video: "/video_restaurant.mp4",
   },
   {
     id: 2,
     title: "Booking Beverage",
     desc: "While learning more about TypeScript, I independently built a 'booking beverage' website using API hooks.",
-    video: "../../../../public/vid_booking_beverage.mp4",
+    video: "/vid_booking_beverage.mp4",
   },
   {
     id: 3,
     title: "UI Flutter",
     desc: "I practiced with Flutter by creating the UI for Instagram and a login page.",
-    video: "../../../../public/vid_ui_flutter.mp4",
+    video: "/vid_ui_flutter.mp4",
   },
 ];
 

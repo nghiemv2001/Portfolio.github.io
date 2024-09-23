@@ -1,7 +1,5 @@
 import { motion } from "framer-motion";
 import "./hero.scss";
-import { Link } from "react-scroll";
-
 const textVariants = {
   initial: {
     x: -500,
